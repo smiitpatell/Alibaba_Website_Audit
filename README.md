@@ -25,29 +25,44 @@ The collected performance data is structured into multiple levels (L1, L2, L3) f
 
 ## Project Structure
 
-Alibaba-Website-Performance/                                                                      <br>
-│                                                                                                 <br>
-├── 📂 Database                                                                                  <br>
-│   └── L1_category.sql                                                                           <br>
-│   └── L2_Sub_factor.sql                                                                         <br>
-│   └── L3_Performance                                                                            <br>
-│   └── L3_Acessbility                                                                            <br>
-│   └── L3_BestPractice                                                                           <br>
-│   └── L3_SEO                                                                                    <br>
-│                                                                                                  <br>
-├── 📂 Dataset                                                                                     <br>
-│   └── Audit_Data.xlsx                                                                            <br>
-│                                                                                                  <br>
-├── 📂 Documentation                                                                              <br>
-│   └── 📂 Images                                                                                 <br>
-        └── Level 1                                                                                <br>  
-        └── Level 2                                                                                <br>      
-        └── Level 3 (performance)                                                                  <br>
-        └── Level 3 (accessibility)                                                                <br>
-        └── Level 3 (best practices)                                                               <br>
-        └── Level 3 (seo)                                                                          <br>
-│                                                                                                  <br>
-└── README.md                                                                                      <br>
+## Project Structure
+
+```text
+Alibaba-Website-Performance/
+│
+├── 📂 Database/
+│   ├── L1_category.sql
+│   ├── L2_Sub_factor.sql
+│   ├── L3_Performance.sql
+│   ├── L3_Accessibility.sql
+│   ├── L3_BestPractice.sql
+│   └── L3_SEO.sql
+│
+├── 📂 Dataset/
+│   └── Audit_Data.xlsx
+│
+├── 📂 Documentation/
+│   └── 📂 Images/
+│       ├── Level_1/
+│       ├── Level_2/
+│       ├── Level_3_Performance/
+│       ├── Level_3_Accessibility/
+│       ├── Level_3_Best_Practices/
+│       └── Level_3_SEO/
+│
+└── README.md
+```
+
+### Folder Description
+
+| Folder | Description |
+|---------|-------------|
+| **Database/** | Contains SQL scripts for creating database tables and storing Level 1, Level 2, and Level 3 performance metrics. |
+| **Dataset/** | Stores the original audit dataset used for database population and analysis. |
+| **Documentation/** | Contains project documentation, screenshots, ER diagrams, and database structure images. |
+| **Documentation/Images/** | Includes Level 1, Level 2, and Level 3 database design screenshots for each category. |
+| **README.md** | Project documentation, setup guide, database overview, and project information. |
+
 
 
 ## Database Design
