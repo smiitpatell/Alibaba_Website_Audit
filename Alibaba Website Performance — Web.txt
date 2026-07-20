@@ -1,0 +1,128 @@
+Alibaba Website PerformanceLEVEL 1 — Website Score (Category Roll-Up)Auto-calculated from Level 2 Sub-Factor scores below. Overall = weighted avg of the 4 categories.
+
+Category ID	Category	Weight	Score	StatusC1	Performance	25%	4.3	PoorC2	Accessibility	25%	3.8	PoorC3	Best Practices	25%	4.5	PoorC4	SEO	25%	4.5	Poor
+
+OVR	Overall Score	100%	4.3	Poor
+
+
+
+LEVEL 2 — Sub-Factor BreakdownSub-Factor Score = average of its Level 3 factor scores (Reference rows excluded). Category Score above pulls from here.
+
+Performance — Sub-FactorsCategory ID	Sub-Factor ID	Metric	Value	Score	WeightC1	P1	Largest Contentful Paint (LCP)	2.1 s	22.5	25%C1	P2	Interaction to Next Paint (INP)	290 ms	21.25	25%C1	P3	Cumulative Layout Shift (CLS)	0.02	18.875	20%C1	P4	Visual Complexity	High Content Density	11.85	15%C1	P5	Hover & Animation Experience	Aggressive Zoom Effect	11.55	15%
+
+Final Sub-Factor Score				17.205	25%
+
+Accessibility— Sub-FactorsCategory ID	Sub-Factor ID	Metric	Value	Score	WeightC2	Q1	Keyboard Navigation	Fully Accessible	18.66666667	20%C2	Q2	Screen Reader Compatibility	Compatible	17.83333333	20%C2	Q3	Color Contrast (WCAG 2.2 AA)	Pass	18	20%C2	Q4	Semantic HTML & WAI-ARIA	Mostly Compliant	13.125	15%C2	Q5	Forms & Interactive Elements	Minor Accessibility Issues	13.5	15%C2	Q6	Alternative Text & Media Accessibility	Complete	9	10%
+
+Final Sub-Factor Score				15.02083333	25%
+
+Best Practices— Sub-FactorsCategory ID	Sub-Factor ID	Metric	Value	Score	WeightC3	R1	Browser Console Errors	No Critical Errors	18.2	20%C3	R2	HTTPS & Secure Resources	Fully Secure	22.75	25%C3	R3	JavaScript & API Best Practices	Mostly Optimized	22.5	25%C3	R4	Modern Web Standards Compliance	Mostly Compliant	13.35	15%C3	R5	Third-Party Libraries & Dependencies	Up-to-Date	13.5	15%
+
+Final Sub-Factor Score				18.06	25%
+
+SEO— Sub-FactorsCategory ID	Sub-Factor ID	Metric	Value	Score	WeightC4	S1	Meta Tags Optimization	Well Optimized	22.5	25%C4	S2	Structured Data (Schema Markup)	Partially Implemented	17.4	20%C4	S3	Mobile SEO & Responsive Design	Fully Responsive	18.4	20%C4	S4	Content Optimization	Well Optimized	18	20%C4	S5	Internal Linking & URL Structure	Good Structure	13.5	15%
+
+Final Sub-Factor Score				17.96	25%
+
+
+
+
+LEVEL 3 — Details Factor ( Performance )
+
+Level 3 : Largest Contentful Paint (LCP) - P1LCP (Largest Contentful Paint)Factor id	Sub Factor id	Factor	Value	Score	Weight	StatusP1	P1A1	Server Response Time (TTFB)	450 ms	90	20%	ExcellentP1	P1A2	Image Optimization	WebP, Compressed	95	30%	ExcellentP1	P1A3	Render Blocking CSS/JS	2 Blocking Resources	80	25%	 GoodP1	P1A4	Lazy Loading	Implemented	90	15%	ExcellentP1	P1A5	CDN & Browser Caching	CDN Enabled, Cache Optimized	95	10%	Excellent
+
+Final LCP Score		Largest Contentful Paint (LCP)		90	25%	 Good
+
+Level 3 : Interaction to Next Paint (INP) - P2Interaction to Next Paint (INP)Factor id	Sub Factor id	Factor	Value	Score	Weight	StatusP2	P2A1	JavaScript Execution Time	220 ms	85	15%	GoodP2	P2A2	Main Thread Blocking	Moderate	75	15%	Needs ImprovementP2	P2A3	Event Handler Efficiency	Optimized	90	15%	ExcellentP2	P2A4	DOM Event Processing	Fast	90	10%	ExcellentP2	P2A5	Input Delay	85 ms	95	15%	ExcellentP2	P2A6	Third-party Script Impact	Medium	75	10%	Needs ImprovementP2	P2A7	Long Tasks (>50 ms)	3 Tasks	80	10%	GoodP2	P2A8	Browser Rendering Time	45 ms	90	10%	Excellent
+
+Interaction to Next Paint (INP)				85	25%	Good
+
+Level 3 : Cumulative Layout Shift (CLS) - P3Cumulative Layout Shift (CLS)Factor id	Sub Factor id	Factor	Value	Score	Weight	StatusP3	P3A1	Image Dimension Attributes	Implemented	100	20%	ExcellentP3	P3A2	Ad/Embed Reserved Space	Reserved	95	15%	ExcellentP3	P3A3	Font Loading Stability	Good	90	15%	ExcellentP3	P3A4	Dynamic Content Stability	Stable	95	15%	ExcellentP3	P3A5	Animation Layout Impact	Minimal	90	10%	ExcellentP3	P3A6	Lazy-loaded Content Shift	Very Low	95	10%	ExcellentP3	P3A7	DOM Reflow Frequency	Low	90	10%	ExcellentP3	P3A8	Unexpected Layout Shifts	None	100	5%	Excellent
+
+Cumulative Layout Shift (CLS)				94.375	20%	Excellent
+
+Level 3 : Visual Complexity - P4Visual ComplexityFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusP4	P4A1	Content Density	High	65	30%	Needs ImprovementP4	P4A2	White Space	Moderate	75	20%	Needs ImprovementP4	P4A3	Visual Hierarchy	Good	85	20%	 GoodP4	P4A4	Color Consistency	Consistent	90	15%	ExcellentP4	P4A5	Navigation Simplicity	Moderate	80	15%	 Good
+
+Final Visual Complexity Score				79	15%	Needs Improvement
+
+Level 3 : Hover & Animation Experience - P5Hover & Animation ExperienceFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusP5	P5A1	Animation Smoothness	Smooth	90	25%	ExcellentP5	P5A2	Hover Scale	1.12x Zoom	60	25%	Needs ImprovementP5	P5A3	Transition Duration	300 ms	90	20%	ExcellentP5	P5A4	Consistency	Mostly Consistent	85	15%	GoodP5	P5A5	Accessibility (Reduced Motion)	Not Supported	60	15%	Needs Improvement
+
+Hover & Animation Experience				77	15%	Needs Improvement
+
+
+
+LEVEL 3 — Details Factor ( Accessibility )
+
+Level 3 : Keyboard Navigation - Q1Keyboard NavigationFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusQ1	Q1A1	Tab Navigation	Fully Functional	95	20%	ExcellentQ1	Q1A2	Logical Focus Order	Correct	90	20%	ExcellentQ1	Q1A3	Visible Focus Indicator	Clearly Visible	95	20%	ExcellentQ1	Q1A4	Skip Navigation Link	Available	90	15%	ExcellentQ1	Q1A5	Keyboard Trap Prevention	No Keyboard Traps	100	15%	ExcellentQ1	Q1A6	Keyboard Accessibility for Interactive Elements	Fully Accessible	90	10%	Excellent
+
+Final Keyboard Navigation Score				93.33333333	20%	Excellent
+
+Level 3 : Screen Reader Compatibility - Q2Screen Reader CompatibilityFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusQ2		ARIA Labels & Roles	Properly Implemented	95	20%	ExcellentQ2		Semantic HTML Support	Fully Supported	90	20%	ExcellentQ2		Image Alternative Text (Alt Text)	Complete	95	20%	ExcellentQ2		Form Labels & Field Descriptions	Mostly Complete	85	15%	 GoodQ2		Dynamic Content Announcements	Partially Supported	80	15%	 GoodQ2		Screen Reader Navigation & Reading Order	Logical & Consistent	90	10%	Excellent
+
+Final Screen Reader Compatibility Score				89.16666667	20%	 Good
+
+Level 3 : Color Contrast (WCAG 2.2 AA) - Q3Color Contrast (WCAG 2.2 AA)Factor id	Sub Factor id	Factor	Value	Score	Weight	StatusQ3	Q3A1	Text-to-Background Contrast Ratio	WCAG AA Compliant	95	20%	ExcellentQ3	Q3A2	Large Text Contrast Compliance	Fully Compliant	95	20%	ExcellentQ3	Q3A3	Interactive Elements Contrast	Good Visibility	90	20%	ExcellentQ3	Q3A4	Link & Button Contrast	Clearly Distinguishable	90	15%	ExcellentQ3	Q3A5	Focus Indicator Contrast	Highly Visible	85	15%	 GoodQ3	Q3A6	Non-Text UI Components Contrast	Mostly Compliant	85	10%	 Good
+
+Final Color Contrast (WCAG 2.2 AA) Score				90	20%	Excellent
+
+Level 3 : Semantic HTML & WAI-ARIA -Q4Semantic HTML & WAI-ARIAFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusQ4	Q4A1	Semantic HTML Elements Usage	Properly Implemented	95	20%	ExcellentQ4	Q4A2	Heading Structure (H1–H6)	Well Structured	90	20%	ExcellentQ4	Q4A3	WAI-ARIA Roles & Attributes	Mostly Implemented	90	20%	ExcellentQ4	Q4A4	Landmark Regions (Header, Main, Nav, Footer)	Clearly Defined	85	15%	ExcellentQ4	Q4A5	Accessible Labels & Descriptions	Mostly Complete	85	15%	ExcellentQ4	Q4A6	HTML Validation & Accessibility Compliance	Minor Issues	80	10%	Excellent
+
+Final Semantic HTML & WAI-ARIA Score				87.5	15%	Excellent
+
+Level 3 : Forms & Interactive Elements - Q5Forms & Interactive ElementsFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusQ5	Q5A1	Form Labels & Input Association	Properly Implemented	95	25%	ExcellentQ5	Q5A2	Error Messages & Validation	Clear & Accessible	90	25%	ExcellentQ5	Q5A3	Keyboard Accessibility	Fully Accessible	90	20%	ExcellentQ5	Q5A4	Interactive Controls (Buttons, Dropdowns, Checkboxes)	Fully Functional	85	15%	 GoodQ5	Q5A5	Focus Indicators & Tab Order	Clearly Visible	90	15%	Excellent
+
+Final Forms & Interactive Elements Score				90	15%	Excellent
+
+Level 3 : Alternative Text & Media Accessibility - Q6Alternative Text & Media AccessibilityFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusQ6	Q6A1	Image Alternative Text (Alt Text)	Complete	95	25%	ExcellentQ6	Q6A2	Video Captions & Transcripts	Available	90	25%	ExcellentQ6	Q6A3	Audio Accessibility	Supported	85	20%	 GoodQ6	Q6A4	Decorative Images Handling	Properly Implemented	90	15%	ExcellentQ6	Q6A5	Accessible Media Controls	Fully Functional	90	15%	Excellent
+
+Final Alternative Text & Media Accessibility Score				90	10%	Excellent
+
+
+
+
+LEVEL 3 — Details Factor ( Best Practices )
+
+Level 3 : Browser Console Errors - R1Browser Console ErrorsFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusR1	R1A1	JavaScript Errors	No Critical Errors	95	25%	ExcellentR1	R1A2	CSS Errors & Warnings	Minor Warnings	90	20%	ExcellentR1	R1A3	Network Request Errors	No Failed Requests	90	20%	ExcellentR1	R1A4	Deprecated API Usage	Not Detected	95	20%	ExcellentR1	R1A5	Console Warnings & Exceptions	Minimal	85	15%	 Good
+
+Final Browser Console Errors Score				91	20%	Excellent
+
+Level 3 : HTTPS & Secure Resources - R2HTTPS & Secure ResourcesFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusR2	R2A1	HTTPS Implementation	Fully Enabled	95	25%	ExcellentR2	R2A2	SSL/TLS Certificate Validity	Valid & Trusted	95	20%	ExcellentR2	R2A3	Mixed Content Protection	No Mixed Content	90	20%	ExcellentR2	R2A4	Secure Resource Loading	All Resources Secure	90	20%	ExcellentR2	R2A5	HTTP Security Headers	Mostly Configured	85	15%	 Good
+
+Final HTTPS & Secure Resources Score				91	25%	Excellent
+
+Level 3 : JavaScript & API Best Practices - R3JavaScript & API Best PracticesFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusR3	R3A1	Modern JavaScript Syntax (ES6+)	Fully Implemented	95	25%	ExcellentR3	R3A2	API Request Handling	Optimized	90	20%	ExcellentR3	R3A3	Error Handling & Exception Management	Well Managed	90	20%	ExcellentR3	R3A4	Asynchronous Operations	Efficient	85	20%	 GoodR3	R3A5	Code Quality & Maintainability	Well Structured	90	15%	Excellent
+
+Final JavaScript & API Best Practices Score				90	25%	Excellent
+
+Level 3 : Modern Web Standards Compliance -R4Modern Web Standards ComplianceFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusR4	R4A2	HTML5 Standards Compliance	Fully Compliant	95	25%	ExcellentR4	R4A3	CSS3 Standards Compliance	Fully Compliant	90	20%	ExcellentR4	R4A4	Responsive Design Standards	Fully Responsive	90	20%	ExcellentR4	R4A5	Cross-Browser Compatibility	Mostly Compatible	85	20%	 GoodR4	R4A6	W3C Validation Compliance	Minor Validation Issues	85	15%	 Good
+
+Final Modern Web Standards Compliance Score				89	15%	 Good
+
+Level 3 : Third-Party Libraries & Dependencies - R5Third-Party Libraries & DependenciesFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusR5	R5A2	Library Version Management	Up-to-Date	95	25%	ExcellentR5	R5A3	Dependency Security	Secure	90	20%	ExcellentR5	R5A4	Unused Libraries	Minimal	90	20%	ExcellentR5	R5A5	Third-Party Script Performance	Optimized	85	20%	 GoodR5	R5A6	External Resource Reliability	Highly Reliable	90	15%	Excellent
+
+Final Third-Party Libraries & Dependencies Score				90	15%	Excellent
+
+
+
+
+LEVEL 3 — Details Factor ( SEO )
+
+Level 3 : Meta Tags Optimization - S1Meta Tags OptimizationFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusS1	S1A1	Page Title Optimization	Well Optimized	95	25%	ExcellentS1	S1A2	Meta Description Quality	Informative & Relevant	90	20%	ExcellentS1	S1A3	Meta Robots Configuration	Properly Configured	90	20%	ExcellentS1	S1A4	Open Graph & Social Meta Tags	Mostly Implemented	85	20%	 GoodS1	S1A5	Duplicate Meta Tags	Not Detected	90	15%	Excellent
+
+Final Meta Tags Optimization Score				90	25%	Excellent
+
+Level 3 : Structured Data (Schema Markup)Structured Data (Schema Markup)Factor id	Sub Factor id	Factor	Value	Score	Weight	StatusS2	S2A1	Schema Markup Implementation	Partially Implemented	85	25%	 GoodS2	S2A2	Organization Schema	Available	90	20%	ExcellentS2	S2A3	Product Schema	Properly Configured	90	20%	ExcellentS2	S2A4	Breadcrumb Schema	Implemented	85	20%	 GoodS2	S2A5	Rich Results Eligibility	Mostly Eligible	85	15%	 Good
+
+Final Structured Data (Schema Markup) Score				87	20%	 Good
+
+Level 3 : Mobile SEO & Responsive Design -S3Mobile SEO & Responsive DesignFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusS3	S3A1	Mobile Responsiveness	Fully Responsive	95	25%	ExcellentS3	S3A2	Mobile Viewport Configuration	Properly Configured	95	20%	ExcellentS3	S3A3	Touch Element Accessibility	Well Optimized	90	20%	ExcellentS3	S3A4	Mobile Content Consistency	Consistent	90	20%	ExcellentS3	S3A5	Responsive Layout Stability	Stable	90	15%	Excellent
+
+Final Mobile SEO & Responsive Design Score				92	20%	Excellent
+
+Level 3 : Content Optimization - S4Content OptimizationFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusS4	S4A1	Content Relevance	Highly Relevant	95	25%	ExcellentS4	S4A2	Heading Structure	Well Organized	90	20%	ExcellentS4	S4A3	Keyword Placement	Naturally Optimized	90	20%	ExcellentS4	S4A4	Image SEO Optimization	Mostly Optimized	85	20%	 GoodS4	S4A5	Content Readability	Easy to Read	90	15%	Excellent
+
+Final Content Optimization Score				90	20%	Excellent
+
+Level 3 : Internal Linking & URL Structure - S5Internal Linking & URL StructureFactor id	Sub Factor id	Factor	Value	Score	Weight	StatusS5	S5A1	Internal Link Structure	Well Connected	95	25%	ExcellentS5	S5A2	URL Readability	SEO Friendly	90	20%	ExcellentS5	S5A3	URL Consistency	Consistent	90	20%	ExcellentS5	S5A4	Broken Link Prevention	No Broken Links	90	20%	ExcellentS5	S5A5	Navigation Link Hierarchy	Well Structured	85	15%	 Good
+
+Final Internal Linking & URL Structure Score				90	15%	Excellent
