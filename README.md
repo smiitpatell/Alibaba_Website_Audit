@@ -25,29 +25,29 @@ The collected performance data is structured into multiple levels (L1, L2, L3) f
 
 ## Project Structure
 
-Alibaba-Website-Performance/<br>
-│                                                                                               <br>
-├── 📂 Database                                                                                <br>
-│   └── L1_category.sql                                                                         <br>
-│   └── L2_Sub_factor.sql                                                                        <br>
-│   └── L3_Performance                                                                          <br>
-│   └── L3_Acessbility                                                                           <br>
-│   └── L3_BestPractice                                                                        <br>
-│   └── L3_SEO                                                                                <br>
-│                                                                                                <br>
-├── 📂 Dataset                                                                                        <br>
-│   └── Audit_Data.xlsx                                                <br>
-│                                                                                <br>
-├── 📂 Documentation                                                                <br>
-│   └── 📂 Images                                        
-        └── Level 1
-        └── Level 2
-        └── Level 3 (performance)
-        └── Level 3 (accessibility)
-        └── Level 3 (best practices)
-        └── Level 3 (seo)
-│
-└── README.md
+Alibaba-Website-Performance/                                                                      <br>
+│                                                                                                 <br>
+├── 📂 Database                                                                                  <br>
+│   └── L1_category.sql                                                                           <br>
+│   └── L2_Sub_factor.sql                                                                         <br>
+│   └── L3_Performance                                                                            <br>
+│   └── L3_Acessbility                                                                            <br>
+│   └── L3_BestPractice                                                                           <br>
+│   └── L3_SEO                                                                                    <br>
+│                                                                                                  <br>
+├── 📂 Dataset                                                                                     <br>
+│   └── Audit_Data.xlsx                                                                            <br>
+│                                                                                                  <br>
+├── 📂 Documentation                                                                              <br>
+│   └── 📂 Images                                                                                 <br>
+        └── Level 1                                                                                <br>  
+        └── Level 2                                                                                <br>      
+        └── Level 3 (performance)                                                                  <br>
+        └── Level 3 (accessibility)                                                                <br>
+        └── Level 3 (best practices)                                                               <br>
+        └── Level 3 (seo)                                                                          <br>
+│                                                                                                  <br>
+└── README.md                                                                                      <br>
 
 
 ## Database Design
