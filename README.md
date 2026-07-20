@@ -25,7 +25,7 @@ The collected performance data is structured into multiple levels (L1, L2, L3) f
 
 ## Project Structure
 
-Alibaba-Website-Performance/
+Alibaba-Website-Performance/<br>
 │
 ├── 📂 Database
 │   └── L1_category.sql
